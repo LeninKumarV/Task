@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Simple Page</title>
+
+    <style>
+
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        /*row 1*/
+        .youtube .row1 .menu{
+            width: 1.5%;
+        }
+        .youtube .row1 .logo{
+            width: 10%;
+        }
+        .youtube .row1 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 1%;
+        }
+
+        /*row 2*/
+        .row2 label img{
+            width: 4.5%;
+            background-color: #eee;
+            padding: 0.8%;
+        }
+        .row3 img:hover{
+            cursor: pointer;
+        }
+        .row2{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 0.3%;
+        }
+
+        /* row 3*/
+        .row3 img{
+            width: 1.5%;
+        }
+        .row3{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 1%;
+        }
+
+        /*row 5*/
+        .row5 img{
+            width: 1.5%;
+            text-align: center;
+        }
+        .row5 img:hover{
+            cursor: pointer;
+        }
+        .row5 div{ 
+            width: 100%;
+            display:inline;
+            padding-right: 10px;
+            text-align: center;
+        }
+
+        /*row 6*/
+        .row6 img{
+            width: 5%;
+            border-radius: 50%;
+        }
+       
+        .row6{
+            display: flex;   
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 1%;
+     }
+       
+    </style>
+</head>
+<body>
+    <!--Youtube Page-->
+    <section class="youtube">
+        <div class="row1">
+            <img src="hamburger_2516745.png" alt="menubar" class="menu">
+            <img src="youtube-logo-png-46020.png" alt="Youtube" class="logo">
+        </div>
+
+        <div class="row2">
+            <input type="text" name="search bar" id="name">
+            <label for="name"><img src="search_8173168.png" alt="search icon"></label>
+        </div>
+        <br>
+
+        <div class="row3">
+            <img src="menu.png" alt="menu">
+            <img src="upload.png" alt="upload">
+            <img src="bell.png" alt="bell">
+            <img src="user.png" alt="user">
+
+        </div>
+        <br>
+        <div class="row4">
+            <iframe width="450" height="315" src="https://www.youtube.com/embed/m67-bOpOoPU?si=QUI8hf51UHp2U1K6&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <figcaption>Python Tutorial - Python Full Course for Beginners in Tamil</figcaption><br>
+            <p>1,00,000 views</p>
+        </div>
+        <br>
+        <div class="row5">
+            <div><img src="like.png" alt="">55k</div>
+            <div><img src="dislike.png" alt="">2k</div>
+            <div><img src="share.png" alt="">SHARE</div>
+            <div><img src="more.png "alt=""></div>
+        </div>
+        <br>
+        <div class="row6">
+            <img src="./channels4_profile.jpg" alt="">
+            <h4>Error Makes Clever</h4>            
+            <button><a href="Task4.1.html" target="_blank">subscribe</a></button>
+            <img src="bell (2).png" alt="" style="width: 2%;">
+        </div>
+        <br>
+        <div class="row7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptates vitae saepe maxime, repudiandae molestiae, blanditiis vero repellendus incidunt vel perspiciatis, error ad deserunt tenetur debitis modi fugiat corrupti voluptatibus.
+            <br>
+            <br>
+            <a href="https://youtu.be/m67-bOpOoPU?si=D1T4pzZLYOWrASHe" target="_blank">SHOW MORE</a>
+        </div>
+    </section>
+</body>
+</html>
